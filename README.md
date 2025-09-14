@@ -1,16 +1,82 @@
-# expense_tracker
+# \# Expense Tracker
 
-A new Flutter project.
+# 
 
-## Getting Started
+# A modern Flutter expense tracking app with dark UI and interactive charts.
 
-This project is a starting point for a Flutter application.
+# 
 
-A few resources to get you started if this is your first Flutter project:
+# \## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# <img src="assets/screenshots/screenshot1.jpg" width="200" /> <img src="assets/screenshots/screenshot2.jpg" width="200" /> <img src="assets/screenshots/screenshot3.jpg" width="200" /> <img src="assets/screenshots/screenshot4.jpg" width="200" />
+
+# 
+
+# \## Features
+
+# 
+
+# \- Add and track expenses with categories
+
+# \- Interactive pie chart for spending breakdown
+
+# \- Multi-currency support (USD, EUR, GBP, JPY, INR, etc.)
+
+# \- Swipe to delete expenses
+
+# \- Monthly and total spending overview
+
+# \- Dark theme with glassmorphism design
+
+# 
+
+# \## Categories
+
+# 
+
+# Food \& Dining • Transportation • Shopping • Entertainment • Bills \& Utilities • Healthcare • Travel • Investment
+
+# 
+
+# \## Tech Stack
+
+# 
+
+# \- \*\*Flutter\*\* - UI framework
+
+# \- \*\*fl\_chart\*\* - Interactive charts
+
+# \- \*\*intl\*\* - Date formatting
+
+# 
+
+# \## Setup
+
+# 
+
+# ```bash
+
+# git clone https://github.com/yourusername/expense-tracker.git
+
+# cd expense-tracker
+
+# flutter pub get
+
+# flutter run
+
+# ```
+
+# 
+
+# \## Build
+
+# 
+
+# ```bash
+
+# flutter build apk --release
+
+# ```
+
