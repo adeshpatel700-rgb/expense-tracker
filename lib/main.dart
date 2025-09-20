@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Expense Tracker',
+      debugShowCheckedModeBanner: false, // This removes the debug banner
       theme: ThemeData(
         brightness: Brightness.dark,
         scaffoldBackgroundColor: Color(0xFF0A0A0B),
@@ -883,7 +884,8 @@ class _ExpenseHomePageState extends State<ExpenseHomePage> {
             child: GridView.builder(
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
-                childAspectRatio: 2.5,
+                childAspectRatio:
+                    1.8, // Changed from 2.5 to 1.8 to make containers taller
                 crossAxisSpacing: 12,
                 mainAxisSpacing: 12,
               ),
@@ -901,6 +903,7 @@ class _ExpenseHomePageState extends State<ExpenseHomePage> {
                     Navigator.pop(context);
                   },
                   child: Container(
+                    padding: EdgeInsets.symmetric(vertical: 8), // Added padding
                     decoration: BoxDecoration(
                       gradient: isSelected
                           ? LinearGradient(
@@ -939,7 +942,7 @@ class _ExpenseHomePageState extends State<ExpenseHomePage> {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        SizedBox(height: 4),
+                        SizedBox(height: 6), // Increased from 4 to 6
                         Text(
                           currency,
                           style: TextStyle(
