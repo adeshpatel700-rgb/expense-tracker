@@ -4,7 +4,7 @@ A modern Flutter expense tracking app with dark UI and interactive charts.
 
 ## Screenshots
 
-<img src="assets/screenshots/screenshot1.jpg" width="200" /> <img src="assets/screenshots/screenshot2.jpg" width="200" /> <img src="assets/screenshots/screenshot3.jpg" width="200" /> <img src="assets/screenshots/screenshot4.jpg" width="200" />
+<img src="assets/screenshots/screenshot1.jpg" width="200" /> <img src="assets/screenshots/screenshot2.png" width="200" /> <img src="assets/screenshots/screenshot3.jpg" width="200" /> <img src="assets/screenshots/screenshot4.jpg" width="200" />
 
 ## Features
 
